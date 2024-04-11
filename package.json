@@ -1,0 +1,26 @@
+{
+  "name": "tspro_noteapp",
+  "version": "1.0.0",
+  "description": "Note taking application project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "npm run build && npm start"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DipuTut/TSpro_NoteApp.git"
+  },
+  "author": "Asadul Haque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DipuTut/TSpro_NoteApp/issues"
+  },
+  "homepage": "https://github.com/DipuTut/TSpro_NoteApp#readme",
+  "dependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
