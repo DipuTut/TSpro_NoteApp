@@ -8,7 +8,6 @@
     "build": "tsc",
     "start": "node dist/app.js",
     "dev": "npm run build && npm start"
-
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/DipuTut/TSpro_NoteApp#readme",
   "dependencies": {
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "prompt-sync": "^4.2.0"
   }
 }
